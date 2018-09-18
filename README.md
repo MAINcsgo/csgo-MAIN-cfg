@@ -4,7 +4,7 @@ Updated version of my csgo config
 
 >> UPDATED 18.SEP 2018
 
-RESOLUTION   		  1152x864
+RESOLUTION   		  1152x864 (stretched)
 ASPECT RATIO          	  4:3
 
 MOUSE                        SS Rival 300   - 400 CPI (both profiles)
@@ -12,6 +12,10 @@ MOUSE                        SS Rival 300   - 400 CPI (both profiles)
   POLLING RATE-              125Hz
   
   Enhance Pointer Precision: No (Windows mouse settings)
+  
+  LAUNCH OPTIONS
+  
+  -tickrate 128 -novid -high +mat_queue_mode 2 +fps_max 300 -nod3d9ex -nojoy +exec main -panorama -freq 75
 
 
 // CROSSHAIR
@@ -78,6 +82,41 @@ MOUSE                        SS Rival 300   - 400 CPI (both profiles)
 	bind "kp_plus" " buy vesthelm; buy vest;"
 	bind "kp_minus" " buy vest;"
 	bind "kp_INS" " buy DEFUSER;"
+	
+	
+ // OTHER BINDs
+	
+	bind "CapsLock" "R_cleardecals";
+	bind "C" "+voicerecord";
+	bind "v" "BindToggle" "cl_righthand";
+	
+	
+// JUMPTHROW
+	
+	alias "+jumpthrow" "+jump;-attack"
+	alias "-jumpthrow" "-jump"
+	bind "x" "+jumpthrow"
+	
+// VIEWMODEL
+	
+	viewmodel_offset_x 2.5;
+	viewmodel_offset_y 1;
+	viewmodel_offset_z -1.5;
+	cl_bob_lower_amt 0;
+	
+// REST
+
+	fps_max "300";
+	net_graph "1";
+	cl_autohelp "0";
+	cl_showhelp "0";
+	r_Dynamic 0;
+	r_dynamiclightning 0
+	
+
+
+	
+	
 
 host_writeconfig
 
