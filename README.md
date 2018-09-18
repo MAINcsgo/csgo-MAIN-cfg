@@ -111,7 +111,7 @@ MOUSE                        SS Rival 300   - 400 CPI (both profiles)
 	cl_autohelp "0";
 	cl_showhelp "0";
 	r_Dynamic 0;
-	r_dynamiclightning 0
+	r_dynamiclighNing 0
 	
 
 
