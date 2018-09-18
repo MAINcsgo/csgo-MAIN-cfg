@@ -2,13 +2,15 @@
 Updated version of my csgo config 
 
 
-//UPDATE 18.SEP 2018
+>> UPDATED 18.SEP 2018
 
-RESOLUTION      1152x864
-ASPECT RATIO    4:3
+RESOLUTION   		  1152x864
+ASPECT RATIO          	  4:3
 
 MOUSE                        SS Rival 300   - 400 CPI (both profiles)
+
   POLLING RATE-              125Hz
+  
   Enhance Pointer Precision: No (Windows mouse settings)
 
 
