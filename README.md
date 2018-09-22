@@ -9,7 +9,7 @@ ASPECT RATIO          	  4:3
 
 MOUSE                        SS Rival 300   - 400 CPI (both profiles)
 
-  POLLING RATE-              125Hz
+POLLING RATE-              1000Hz
   
   Enhance Pointer Precision: No (Windows mouse settings)
   
@@ -32,7 +32,7 @@ MOUSE                        SS Rival 300   - 400 CPI (both profiles)
 	
   // Mouse
   
-  	 sensitivity "2.5";
+  	 sensitivity "2.2";
  	 zoom_sensitivity_ratio_mouse "1.0";
   	 m_rawinput "1";
  	 m_pitch "0.022";
