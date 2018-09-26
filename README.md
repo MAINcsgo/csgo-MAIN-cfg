@@ -32,7 +32,7 @@ POLLING RATE-              1000Hz
 	
   // Mouse
   
-  	 sensitivity "2.2";
+  	 sensitivity "2.5";
  	 zoom_sensitivity_ratio_mouse "1.0";
   	 m_rawinput "1";
  	 m_pitch "0.022";
