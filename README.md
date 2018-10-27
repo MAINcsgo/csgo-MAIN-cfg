@@ -2,9 +2,9 @@
 Updated version of my csgo config 
 
 
->> UPDATED 18.SEP 2018
+>> UPDATED 27.OCT 2018
 
-RESOLUTION   		  800x600 (stretched)
+RESOLUTION   		  1280x960 (stretched)
 ASPECT RATIO          	  4:3
 
 MOUSE                        SS Rival 300   - 400 CPI (both profiles)
@@ -21,18 +21,18 @@ POLLING RATE-              1000Hz
 // CROSSHAIR
 
   	cl_crosshairalpha 255;
- 	cl_crosshaircolor 1; 
+ 	cl_crosshaircolor 2; 
 	cl_crosshairdot 0;
- 	cl_crosshairgap 0;
+ 	cl_crosshairgap -2;
  	cl_crosshairsize 4;
  	cl_crosshairstyle 4;
  	cl_crosshairusealpha 1;
  	cl_crosshairthickness 1.;
- 	cl_crosshair_drawoutline 0;
+ 	cl_crosshair_drawoutline 1;
 	
   // Mouse
   
-  	 sensitivity "1.7";
+  	 sensitivity "1.95";
  	 zoom_sensitivity_ratio_mouse "1.0";
   	 m_rawinput "1";
  	 m_pitch "0.022";
@@ -106,7 +106,7 @@ POLLING RATE-              1000Hz
 	
 // REST
 
-	fps_max "200";
+	fps_max unlimited;
 	net_graph "1";
 	cl_autohelp "0";
 	cl_showhelp "0";
