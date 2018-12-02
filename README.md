@@ -2,7 +2,7 @@
 Updated version of my csgo config 
 
 
->> UPDATED 11.NOV 2018
+>> UPDATED 2.DEC 2018
 
 RESOLUTION   		  1024x768 (stretched)
 ASPECT RATIO          	  4:3
@@ -23,12 +23,12 @@ POLLING RATE-              1000Hz
   	cl_crosshairalpha 255;
  	cl_crosshaircolor 1; 
 	cl_crosshairdot 0;
- 	cl_crosshairgap -3;
- 	cl_crosshairsize 4;
- 	cl_crosshairstyle 4;
+ 	cl_crosshairgap -2;
+ 	cl_crosshairsize 3;
+ 	cl_crosshairstyle 6;
  	cl_crosshairusealpha 1;
- 	cl_crosshairthickness 1.;
- 	cl_crosshair_drawoutline 1;
+ 	cl_crosshairthickness 0;
+ 	cl_crosshair_drawoutline 0;
 	
   // Mouse
   
@@ -99,7 +99,21 @@ POLLING RATE-              1000Hz
 	
 // VIEWMODEL
 	
-	viewmodel_presetpos 3;
+	viewmodel_fov "67"
+	viewmodel_offset_x "2"
+	viewmodel_offset_y "2"
+	viewmodel_offset_z "-2"
+	cl_viewmodel_shift_left_amt "0"
+	cl_viewmodel_shift_right_amt "0"
+	cl_bob_lower_amt "0"
+	cl_bobamt_lat "0"
+	cl_bobamt_vert "0"
+	cl_bobcycle "0.98"
+	cl_bob_lower_amt "0"
+	cl_bobamt_lat "0"
+	cl_bobamt_vert "0"
+	
+	cl_righthand 0;
 	
 // REST
 
