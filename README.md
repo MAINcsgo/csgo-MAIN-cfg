@@ -112,6 +112,7 @@ POLLING RATE-              1000Hz
 	cl_bob_lower_amt "0"
 	cl_bobamt_lat "0"
 	cl_bobamt_vert "0"
+	viewmodel_recoil 0	
 	
 	cl_righthand 0;
 	
@@ -123,6 +124,7 @@ POLLING RATE-              1000Hz
 	cl_showhelp "0";
 	r_Dynamic 0;
 	r_dynamiclighNing 0
+	+cl_show_team_equipment 1;
 	
 
 
