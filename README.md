@@ -70,19 +70,19 @@ POLLING RATE-              1000Hz
   
   // BUY BINDs
 
-	bind "kp_end" "buy deagle;";
-	bind "kp_downarrow" "buy ak47; buy m4a1;";
-	bind "kp_pgdn" "buy awp;";
-	bind "kp_leftarrow" "buy p250;";
-	bind "kp_5" "buy tec9; buy fiveseven;";
-	bind "kp_multiply" " buy molotov; buy incgrenade;";
-	bind "kp_home" " buy hegrenade;";
-	bind "kp_uparrow" " buy flashbang;";
-	bind "kp_pgup" " buy smokegrenade;";
-	bind "kp_plus" " buy vesthelm; buy vest;";
-	bind "kp_minus" " buy vest;";
-	bind "kp_INS" " buy DEFUSER;";
-	
+// Bind are customized for non-numpad keyboards in ENGLISH (USA) Layout
+
+	bind "Uparrow"   "buy deagle;"
+	bind "Downarrow" "buy p250;"
+	bind "O"   "buy ak47; buy m4a1;"
+	bind "I"   "buy awp;"
+	bind "J"   "buy molotov; buy incgrenade;"
+	bind "H"   "buy hegrenade;"
+	bind "K"   "buy flashbang;buy flashbang;"
+	bind "L"   "buy smokegrenade;"
+	bind "P"   "buy vesthelm; buy vest;"
+	bind "  "   "buy vest;"
+	bind "n"   "buy DEFUSER;"
 	
  // OTHER BINDs
 	
