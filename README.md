@@ -21,18 +21,18 @@ POLLING RATE-              1000Hz
 // CROSSHAIR
 
   	cl_crosshairalpha 255;
- 	cl_crosshaircolor 1; 
+ 	cl_crosshaircolor 2; 
 	cl_crosshairdot 0;
  	cl_crosshairgap -2;
  	cl_crosshairsize 3;
- 	cl_crosshairstyle 6;
+ 	cl_crosshairstyle 4;
  	cl_crosshairusealpha 1;
  	cl_crosshairthickness 0;
  	cl_crosshair_drawoutline 0;
 	
   // Mouse
   
-  	 sensitivity "1.95";
+  	 sensitivity "1.5";
  	 zoom_sensitivity_ratio_mouse "1.0";
   	 m_rawinput "1";
  	 m_pitch "0.022";
