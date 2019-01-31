@@ -4,7 +4,7 @@ Updated version of my csgo config
 
 >> UPDATED 15.JAN 2019
 
-RESOLUTION   		  1024x768 (stretched)
+RESOLUTION   		  1280x960 (stretched)
 ASPECT RATIO          	  4:3
 
 MOUSE                        SS Rival 300   - 400 CPI (both profiles)
@@ -32,7 +32,7 @@ POLLING RATE-              1000Hz
 	
   // Mouse
   
-  	 sensitivity "1.5";
+  	 sensitivity "2";
  	 zoom_sensitivity_ratio_mouse "1.0";
   	 m_rawinput "1";
  	 m_pitch "0.022";
