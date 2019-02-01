@@ -2,7 +2,7 @@
 Updated version of my csgo config 
 
 
->> UPDATED 15.JAN 2019
+	>> UPDATED 1.FEB 2019
 
 RESOLUTION   		  1280x960 (stretched)
 ASPECT RATIO          	  4:3
@@ -15,7 +15,7 @@ POLLING RATE-              1000Hz
   
   LAUNCH OPTIONS
   
-  -tickrate 128 -novid -high +mat_queue_mode -1 +fps_max unlimited -nod3d9ex -nojoy +exec main -panorama -freq 75
+  -tickrate 128 -novid -high +mat_queue_mode -2 +fps_max unlimited -nod3d9ex -nojoy +exec main 
 
 
 // CROSSHAIR
@@ -24,10 +24,10 @@ POLLING RATE-              1000Hz
  	cl_crosshaircolor 2; 
 	cl_crosshairdot 0;
  	cl_crosshairgap -2;
- 	cl_crosshairsize 3;
+ 	cl_crosshairsize 2;
  	cl_crosshairstyle 4;
  	cl_crosshairusealpha 1;
- 	cl_crosshairthickness 0;
+ 	cl_crosshairthickness 1;
  	cl_crosshair_drawoutline 0;
 	
   // Mouse
@@ -69,9 +69,7 @@ POLLING RATE-              1000Hz
  	 sound_device_override "";
   
   // BUY BINDs
-
-// Bind are customized for non-numpad keyboards in ENGLISH (USA) Layout
-
+  
 	bind "Uparrow"   "buy deagle;"
 	bind "Downarrow" "buy p250;"
 	bind "O"   "buy ak47; buy m4a1;"
@@ -97,23 +95,22 @@ POLLING RATE-              1000Hz
 	alias "-jumpthrow" "-jump";
 	bind "x" "+jumpthrow";
 	
+	
+	bind "MWHEELUP" "+jump"
+	bind "MWHEELDOWN" "+jump"
+	bind "SPACE" "+jump"
+	
 // VIEWMODEL
 	
-	viewmodel_fov "67"
-	viewmodel_offset_x "2"
-	viewmodel_offset_y "2"
-	viewmodel_offset_z "-2"
+	viewmodel_presetpos 3;
+	viewmodel_offset_x 2;
 	cl_viewmodel_shift_left_amt "0"
 	cl_viewmodel_shift_right_amt "0"
-	cl_bob_lower_amt "0"
+	cl_bob_lower_amt "10"
 	cl_bobamt_lat "0"
 	cl_bobamt_vert "0"
-	cl_bobcycle "0.98"
-	cl_bob_lower_amt "0"
-	cl_bobamt_lat "0"
-	cl_bobamt_vert "0"
+	cl_bobcycle "0.98"	
 	viewmodel_recoil 0	
-	
 	cl_righthand 0;
 	
 // REST
@@ -125,10 +122,6 @@ POLLING RATE-              1000Hz
 	r_Dynamic 0;
 	r_dynamiclighNing 0
 	+cl_show_team_equipment 1;
-	
-
-
-	
 	
 
 host_writeconfig
