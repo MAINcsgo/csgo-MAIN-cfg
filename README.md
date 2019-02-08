@@ -4,7 +4,7 @@ Updated version of my csgo config
 
 	>> UPDATED 1.FEB 2019
 
-RESOLUTION   		  1280x960 (stretched)
+RESOLUTION   		  1024x768 (stretched)
 ASPECT RATIO          	  4:3
 
 MOUSE                        SS Rival 300   - 400 CPI (both profiles)
