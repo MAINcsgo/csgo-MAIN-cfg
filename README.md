@@ -4,7 +4,7 @@ Updated version of my csgo config
 
 	>> UPDATED 1.FEB 2019
 
-RESOLUTION   		  1024x768 (stretched)
+RESOLUTION   		  1280x960 (stretched)
 ASPECT RATIO          	  4:3
 
 MOUSE                        SS Rival 300   - 400 CPI (both profiles)
@@ -15,16 +15,16 @@ POLLING RATE-              1000Hz
   
   LAUNCH OPTIONS
   
-  -tickrate 128 -novid -high +mat_queue_mode -2 +fps_max unlimited -nod3d9ex -nojoy +exec main 
+  -tickrate 128 -novid -high +mat_queue_mode -2 +fps_max unlimited -nod3d9ex -nojoy +exec main  -h 1280 -w 960
 
 
 // CROSSHAIR
 
   	cl_crosshairalpha 255;
- 	cl_crosshaircolor 2; 
+ 	cl_crosshaircolor 1; 
 	cl_crosshairdot 0;
  	cl_crosshairgap -2;
- 	cl_crosshairsize 2;
+ 	cl_crosshairsize 4;
  	cl_crosshairstyle 4;
  	cl_crosshairusealpha 1;
  	cl_crosshairthickness 1;
