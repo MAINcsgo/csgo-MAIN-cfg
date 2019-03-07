@@ -2,7 +2,7 @@
 Updated version of my csgo config 
 
 
-	>> UPDATED 1.FEB 2019
+	>> UPDATED 7.MAR 2019
 
 RESOLUTION   		  1280x960 (stretched)
 ASPECT RATIO          	  4:3
