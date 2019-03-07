@@ -15,7 +15,7 @@ POLLING RATE-              1000Hz
   
   LAUNCH OPTIONS
   
-  -tickrate 128 -novid -high +mat_queue_mode -2 +fps_max unlimited -nod3d9ex -nojoy +exec main  -h 1280 -w 960
+  -tickrate 128 -novid -high +mat_queue_mode -2 +fps_max unlimited d3d9ex -nojoy +exec main  -h 1280 -w 960
 
 
 // CROSSHAIR
