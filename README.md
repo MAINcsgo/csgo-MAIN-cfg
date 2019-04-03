@@ -7,8 +7,9 @@ Updated version of my csgo config
 RESOLUTION   		  1280x960 (stretched)
 ASPECT RATIO          	  4:3
 
-MONITOR		 	    Benq XL2411Z 144Hz;			
-MOUSE                       SS Rival 300   - 400 CPI (both profiles);
+MONITOR		 	    Benq XL2411Z 144Hz	
+    
+MOUSE                       SS Rival 300   - 400 CPI (both profiles)
 
 POLLING RATE-              1000Hz
   
