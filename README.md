@@ -9,7 +9,7 @@ ASPECT RATIO          	  4:3
 
 MONITOR		 	    Benq XL2411Z 144Hz	
     
-MOUSE                       SS Rival 300   - 400 CPI (both profiles)
+MOUSE                       Zowie EC2-A   - 400 DPI
 
 POLLING RATE-              1000Hz
   
