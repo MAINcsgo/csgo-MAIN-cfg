@@ -4,14 +4,14 @@ Updated version of my csgo config
 
 	>> UPDATED 3.APR 2019
 
-RESOLUTION   		  1280x960 (stretched)
+RESOLUTION   		  1024x768 (stretched)
 ASPECT RATIO          	  4:3
 
 MONITOR		 	    Benq XL2411Z 144Hz	
     
 MOUSE                       Zowie EC2-A   - 400 DPI
 
-POLLING RATE-              1000Hz
+POLLING RATE-              500Hz
   
   Enhance Pointer Precision: No (Windows mouse settings)
   
@@ -34,7 +34,7 @@ POLLING RATE-              1000Hz
 	
   // Mouse
   
-  	 sensitivity "2";
+  	 sensitivity "2.2";
  	 zoom_sensitivity_ratio_mouse "1.0";
   	 m_rawinput "1";
  	 m_pitch "0.022";
