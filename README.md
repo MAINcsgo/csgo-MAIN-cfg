@@ -2,7 +2,7 @@
 Updated version of my csgo config 
 
 
-	>> UPDATED 3.APR 2019
+	>> UPDATED 10.MAY 2019
 
 RESOLUTION   		  1024x768 (stretched)
 ASPECT RATIO          	  4:3
@@ -11,13 +11,13 @@ MONITOR		 	    Benq XL2411Z 144Hz
     
 MOUSE                       Zowie EC2-A   - 400 DPI
 
-POLLING RATE-              500Hz
+POLLING RATE-              1000Hz
   
   Enhance Pointer Precision: No (Windows mouse settings)
   
   LAUNCH OPTIONS
   
-  -freq 144 -tickrate 128 -novid -d3d9ex -nojoy n-h 1280 -w 960
+  -freq 144 -tickrate 128 -novid -d3d9ex -nojoy n-h 1024 -w 768
 
 
 // CROSSHAIR
@@ -25,7 +25,7 @@ POLLING RATE-              500Hz
   	cl_crosshairalpha 255;
  	cl_crosshaircolor 2; 
 	cl_crosshairdot 0;
- 	cl_crosshairgap -2;
+ 	cl_crosshairgap -3;
  	cl_crosshairsize 4;
  	cl_crosshairstyle 4;
  	cl_crosshairusealpha 1;
@@ -34,7 +34,7 @@ POLLING RATE-              500Hz
 	
   // Mouse
   
-  	 sensitivity "2.2";
+  	 sensitivity "1.7";
  	 zoom_sensitivity_ratio_mouse "1.0";
   	 m_rawinput "1";
  	 m_pitch "0.022";
