@@ -1,132 +1,99 @@
-# csgo-MAIN-cfg
-Updated version of my csgo config 
+cl_crosshair_drawoutline "1"
+cl_crosshair_dynamic_maxdist_splitratio "0.35"
+cl_crosshair_dynamic_splitalpha_innermod "1"
+cl_crosshair_dynamic_splitalpha_outermod "0.5"
+cl_crosshair_dynamic_splitdist "7"
+cl_crosshair_outlinethickness "0.5"
+cl_crosshair_sniper_show_normal_inaccuracy "0"
+cl_crosshair_sniper_width "1"
+cl_crosshair_t "0"
+cl_crosshairalpha "255"
+cl_crosshaircolor "1"
+cl_crosshaircolor_b "0"
+cl_crosshaircolor_g "0"
+cl_crosshaircolor_r "0"
+cl_crosshairdot "0"
+cl_crosshairgap "0"
+cl_crosshairgap_useweaponvalue "0"
+cl_crosshairscale "0"
+cl_crosshairsize "1.5"
+cl_crosshairstyle "4"
+cl_crosshairthickness "0"
+cl_crosshairusealpha "1"
+cl_fixedcrosshairgap "-4.5"
 
 
-	>> UPDATED 10.MAY 2019
+cl_viewmodel_shift_left_amt "1.5"
+cl_viewmodel_shift_right_amt "0.75"
+viewmodel_fov "68"
+viewmodel_offset_x "2.500000"
+viewmodel_offset_y "0"
+viewmodel_offset_z "-1.500000"
+viewmodel_presetpos "3"
+viewmodel_recoil "0"
+cl_bob_lower_amt "5.000000"
+cl_bobamt_lat "0.4"
+cl_bobamt_vert "0.25"
+cl_bobcycle "0.98"
 
-RESOLUTION   		  1024x768 (stretched)
-ASPECT RATIO          	  4:3
+cl_hud_background_alpha "0.445692"
+cl_hud_bomb_under_radar "0"
+cl_hud_color "11"
+cl_hud_healthammo_style "0"
+cl_hud_playercount_pos "0"
+cl_hud_playercount_showcount "0"
+cl_hud_radar_scale "0.845000"
+hud_scaling "0.950000"
+hud_showtargetid "1"
 
-MONITOR		 	    Benq XL2411Z 144Hz	
-    
-MOUSE                       Zowie EC2-A   - 400 DPI
+cl_righthand "0.000000"
+cl_color "1"
+cl_radar_always_centered "1"
+cl_radar_icon_scale_min "0.6"
+cl_radar_rotate "1"
+cl_radar_scale "0.5"
+cl_radar_square_with_scoreboard "1"
 
-POLLING RATE-              1000Hz
-  
-  Enhance Pointer Precision: No (Windows mouse settings)
-  
-  LAUNCH OPTIONS
-  
-  -freq 144 -tickrate 128 -novid -d3d9ex -nojoy n-h 1024 -w 768
+alias "+jumpthrow" "+jump;-attack";
+alias "-jumpthrow" "-jump";
+bind "x" "+jumpthrow";
+
+sensitivity "2";
+ zoom_sensitivity_ratio_mouse "1.0";
+ m_rawinput "1";
+ m_pitch "0.022";
+ m_customaccel "0";
+ m_mouseaccel1 "0";
+ m_mouseaccel2 "0";
+ m_mousespeed "0" ;
+
+cl_autohelp "0"
+cl_disablefreezecam "1"
+cl_disablehtmlmotd "1"
+cl_forcepreload "1"
+cl_freezecameffects_showholiday "0"
+cl_showhelp "0"
+gameinstructor_enable "0"
+mat_queue_mode "-1"
+r_drawtracers_firstperson "0"
+r_dynamic "0"
 
 
-// CROSSHAIR
+bind "c" "+voicerecord"
+bind "alt" "noclip"
+bindtoggle "v" "cl_righthand"
 
-  	cl_crosshairalpha 255;
- 	cl_crosshaircolor 2; 
-	cl_crosshairdot 0;
- 	cl_crosshairgap -3;
- 	cl_crosshairsize 4;
- 	cl_crosshairstyle 4;
- 	cl_crosshairusealpha 1;
- 	cl_crosshairthickness 1;
- 	cl_crosshair_drawoutline 0;
-	
-  // Mouse
-  
-  	 sensitivity "1.7";
- 	 zoom_sensitivity_ratio_mouse "1.0";
-  	 m_rawinput "1";
- 	 m_pitch "0.022";
- 	 m_customaccel "0";
- 	 m_mouseaccel1 "0";
- 	 m_mouseaccel2 "0";
- 	 m_mousespeed "0" ;
-  
-  //Audio
-  
-  	 snd_deathcamera_volume "0.000000";	
- 	 snd_duckerattacktime "0.5";
- 	 snd_duckerreleasetime "2.5";
-  	 snd_duckerthreshold "0.15";
-  	 snd_ducking_off "1";
-  	 snd_ducktovolume "0.55";
- 	 snd_hrtf_distance_behind "100";
- 	 snd_hwcompat "0";
- 	 snd_mapobjective_volume "0";
- 	 snd_menumusic_volume "0.000000";
- 	 snd_mix_async "1";
- 	 snd_mix_async_onetime_reset "1";
- 	 snd_mixahead "0.025" ;
- 	 snd_music_selection "0";
-	 snd_music_volume_onetime_reset_2 "1";
-	 snd_musicvolume_multiplier_inoverlay "0.000000";
-	 snd_mute_losefocus "1";
- 	 snd_mvp_volume "0.000000";
-	 snd_pitchquality "1";
- 	 snd_roundend_volume "0";
- 	 snd_roundstart_volume "0";
- 	 snd_tensecondwarning_volume "0";
- 	 snd_use_hrtf_onetime_reset "0";
- 	 sound_device_override "";
-  
-  // BUY BINDs
-  
-	bind "Uparrow"   "buy deagle;"
-	bind "Downarrow" "buy p250;"
-	bind "O"   "buy ak47; buy m4a1;"
-	bind "I"   "buy awp;"
-	bind "J"   "buy molotov; buy incgrenade;"
-	bind "H"   "buy hegrenade;"
-	bind "K"   "buy flashbang;buy flashbang;"
-	bind "L"   "buy smokegrenade;"
-	bind "P"   "buy vesthelm; buy vest;"
-	bind "  "   "buy vest;"
-	bind "n"   "buy DEFUSER;"
-	
- // OTHER BINDs
-	
-	bind "CapsLock" "R_cleardecals";
-	bind "C" "+voicerecord";
-	bind "v" "BindToggle" "cl_righthand";
-	
-	
-// JUMPTHROW
-	
-	alias "+jumpthrow" "+jump;-attack";
-	alias "-jumpthrow" "-jump";
-	bind "x" "+jumpthrow";
-	
-	
-	bind "MWHEELUP" "+jump"
-	bind "MWHEELDOWN" "+jump"
-	bind "SPACE" "+jump"
-	
-// VIEWMODEL
-	
-	viewmodel_presetpos 3;
-	viewmodel_offset_x 2;
-	cl_viewmodel_shift_left_amt "0"
-	cl_viewmodel_shift_right_amt "0"
-	cl_bob_lower_amt "10"
-	cl_bobamt_lat "0"
-	cl_bobamt_vert "0"
-	cl_bobcycle "0.98"	
-	viewmodel_recoil 0	
-	cl_righthand 0;
-	
-// REST
 
-	fps_max unlimited;
-	net_graph "1";
-	cl_autohelp "0";
-	cl_showhelp "0";
-	r_Dynamic 0;
-	r_dynamiclighNing 0
-	+cl_show_team_equipment 1;
-	
+
+volume ".3"
+
 
 host_writeconfig
+
+
+
+
+
 
 
 
